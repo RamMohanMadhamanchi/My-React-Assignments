@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  padding: 5% 47%;
+  display: flex;
+  flex-direction: column;
+}
+.profile-image {
+  width: 150px;
+  border-radius: 10px;
+}
+.employee-name {
+  font-size:xx-large;
+  color: rgb(17,164,250);
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.employee-location,.employee-bloodGroup,.employee-age {
+  font-size: x-small;
+  color: rgb(159,159,159);
+  font-weight: bold;
+}
+p {
+  font-size: medium;
+  color: black;
+  margin-block-start: 0;
+}
